@@ -1,0 +1,18 @@
+\subsubsection*{Adding Wind/Current}
+To add wind, we use the x and y speeds of the wind. Equally valid would have been using a singular wind speed with a heading, but this approach was not only more simple but also more in keeping with the general code structure. An additional assumption we make is that the wind speed is equivalent to current speed, and both wind and current share equal responsibility in moving objects in the ocean. This is quite obviously not true. Wind does impact water currents. However, not all the wind energy is translated into kinetic energy in the current, and there are established current patterns that are unrelated to the wind but rather based on geothermal activity and weather patterns. Thus, for the sake of this model, we will simply refer to "wind" and assume that this wind impacts the following three parameters, and that the current is negligible: 
+\begin{enumerate}
+\item \textbf{AUV Speed} The boat's speed will decrease or increase with respect to the speed of the wind (really it is affected by the current, but seeing as we are taking current and wind to be interchangeable, we say that the AUV is affected by the "wind") . The speed will increase if the robot is moving in the same direction as the wind, and will decrease if it is moving in the opposite direction of the wind.
+\item \textbf{Drifter Movement} The drifter will be more likely to drift with the direction of the wind. In other words, it has a greater probability of travelling a larger distance in the direction of the wind.  
+\item \textbf{Kernel} Since we assume that we have a decent probabilistic representation of where the drifter will be, we can use the information we know about the wind to help us set up our probability distribution. When blurring, we will create a higher weight in the direction of the wind and a lower weight in the opposite direction. 
+\end{enumerate}
+
+\section*{Critique of Method}
+
+- Computation time 
+- all sorts of other directions to take this... 
+- boat with velocity
+- spiral search patterns 
+
+PROBLEM WITH MY METHOD
+- wind and current equivalency ... could deepen this model to have wind and current having different values - having them be separate parameters
+- include wind directions that change randomly throughout a trial / search. (would be a simple additon)

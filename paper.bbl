@@ -1,0 +1,60 @@
+\begin{thebibliography}{1}
+
+\bibitem{Rekleitis2001c}
+Ioannis~M. Rekleitis, Gregory Dudek, and Evangelos Milios.
+\newblock Multi-robot collaboration for robust exploration.
+\newblock {\em Annals of Mathematics and Artificial Intelligence},
+  31(1-4):7--40, 2001.
+
+\bibitem{batalin2004}
+MaximA. Batalin and GauravS. Sukhatme.
+\newblock Coverage, exploration and deployment by a mobile robot and
+  communication network.
+\newblock {\em Telecommunication Systems}, 26(2-4):181--196, 2004.
+
+\bibitem{burgard2000}
+W.~Burgard, M.~Moors, D.~Fox, R.~Simmons, and S.~Thrun.
+\newblock Collaborative multi-robot exploration.
+\newblock In {\em Robotics and Automation, 2000. Proceedings. ICRA '00. IEEE
+  International Conference on}, volume~1, pages 476--481 vol.1, 2000.
+
+\bibitem{rekleitis20082}
+Regis Vincent, Dieter Fox, Jonathan Ko, Kurt Konolige, Benson Limketkai, Benoit
+  Morisset, Charles Ortiz, Dirk Schulz, and Benjamin Stewart.
+\newblock Distributed multirobot exploration, mapping, and task allocation.
+\newblock {\em Annals of Mathematics and Artificial Intelligence},
+  52(2-4):229--255, 2008.
+
+\bibitem{rekleitis20081}
+Ioannis Rekleitis, AiPeng New, EdwardSamuel Rankin, and Howie Choset.
+\newblock Efficient boustrophedon multi-robot coverage: an algorithmic
+  approach.
+\newblock {\em Annals of Mathematics and Artificial Intelligence},
+  52(2-4):109--142, 2008.
+
+\bibitem{Dudek97AAAIw}
+Gregory Dudek and Nicholas Roy.
+\newblock Multi-robot rendezvous in unknown environments, or, what to do when
+  you're lost at the zoo.
+\newblock In {\em Proceedings of the AAAI National Conference Workshop on
+  Online Search}, Providence, Rhode Island, July 1997.
+
+\bibitem{Roy2000}
+Nicholas Roy and Gregory Dudek.
+\newblock Collaborative robot exploration and rendezvous: Algorithms,
+  performance bounds and observations.
+\newblock {\em Autonomous Robots}, 11:117--136, 2000.
+
+\bibitem{meghjani14}
+Malika Meghjani, Florian Shkurti, Juan Camilo~Gamboa Higuera, Arnold Kalmbach,
+  David Whitney, and Gregory Dudek.
+\newblock Asymmetric rendezvous search at sea.
+\newblock In {\em Computer and Robot Vision (CRV), 2014 Canadian Conference
+  on}, pages 175--180. IEEE, 2014.
+
+\bibitem{alpern2003}
+S.~Alpern and S.~Gal.
+\newblock {The Theory of Search Games and Rendezvous}.
+\newblock 2003.
+
+\end{thebibliography}
